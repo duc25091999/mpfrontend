@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { message as messageAnt } from 'antd';
 
-export const urlApi = process.env.URL_BASE || 'https://mptelecombackend.herokuapp.com/'
+export const urlApi = process.env.URL_BASE || 'https://mptelecombackend.herokuapp.com/api/'
 
 let API = axios.create({
     baseURL: urlApi,
